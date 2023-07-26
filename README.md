@@ -62,7 +62,11 @@
     - [Teorema de Gershgorin](#teorema-de-gershgorin)
     - [Potencia](#potencia)
     - [Potencia desplazada](#potencia-desplazada)
+- [Semana 13](#semana-13)
+    - [Interpolación de Newton](#interpolación-de-newton)
+    - [Interpolación de Lagrange](#interpolación-de-lagrange)
 
+> Scripts de Python: https://github.com/AldoLunaBueno/Analysis-and-Numerical-Modeling-I
 
 ## Semana 1
 
@@ -152,8 +156,31 @@ Examen parcial
 #### Secante
 #### Punto Fijo
 #### Newton
+
+Fórmula iterativa:
+
+![](sources/2023-07-25-22-46-07.png)
+
+Gráficamente:
+
+![](sources/2023-07-25-22-47-56.png)
+
+Análisis de la convergencia (error)
+
+![](sources/2023-07-25-22-49-52.png)
+![](sources/2023-07-25-22-50-39.png)
+
+¿Cuántas iteraciones para llegar a cierto margen de error?
+
+![](sources/2023-07-25-22-51-48.png)
+
 ### Clase 20. Sistemas de ecuaciones no lineales
 #### Punto fijo
+
+Ejemplo:
+
+![](sources/2023-07-26-07-02-09.png)
+
 #### Newton
 
 ---
@@ -166,4 +193,14 @@ Examen parcial
 #### Potencia desplazada
 
 
+## Semana 13
 
+#### Interpolación de Newton
+
+Ejemplo:
+
+![](sources/2023-07-26-07-11-11.png)
+
+Solo usas los datos necesarios para el polinomio del grado que te piden (si quieres de grado 2, necesitas 2+1 pares de datos).
+
+#### Interpolación de Lagrange
